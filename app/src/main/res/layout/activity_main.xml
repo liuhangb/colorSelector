@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+        android:id="@+id/lsq_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello liuhang"/>
+    <com.example.lh.myapplication.ColorSelector
+        android:id="@+id/lsq_color_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:colorIndicatorHeight="10dp"
+        app:colorIndicatorWidth="12dp"
+        app:colorListHeight="10dp"
+        app:colorListWidth="290dp"
+        app:dragBarRadius="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:colorListPaddingTop="5dp"
+         android:layout_below="@+id/lsq_tv"
+        />
+
+</RelativeLayout>

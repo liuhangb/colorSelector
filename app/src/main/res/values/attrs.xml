@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorSelector">
+        <attr name="dragBarRadius" format="dimension" />
+        <attr name="colorIndicatorWidth" format="dimension"/>
+        <attr name="colorIndicatorHeight" format="dimension"/>
+        <attr name="colorListWidth" format="dimension"/>
+        <attr name="colorListHeight" format="dimension"/>
+        <attr name="colorListPaddingTop" format="dimension"/>
+    </declare-styleable>
+</resources>
